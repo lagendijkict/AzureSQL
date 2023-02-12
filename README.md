@@ -5,16 +5,16 @@ I bought a Azure sandbox from Whizlabs to save some money on Azure costs. Main d
 
 ## Steps to use the PowerShell script
 
-1 Save Startup.ps1 on your computer
-2 Create Whizlabs sandbox (or other brand of your liking)
-3 Copy resourcegroup name
-4 Open Powershell, and navigate to the folder where you stored Startup.ps1
-5 Use .\Startup.ps1 command with resourcegroup name as a parameter
-6 Login to your (Whizlabs) Azure account when prompted.
+1. Save Startup.ps1 on your computer, fill the specific values such as location and ip address.
+2. Create Whizlabs sandbox (or other brand of your liking).
+3. Copy resourcegroup name.
+4. Open Powershell, and navigate to the folder where you stored Startup.ps1
+5. Use .\Startup.ps1 command with resourcegroup name as a parameter.
+6. Login to your (Whizlabs) Azure account when prompted.
 
 The Azure SQL Server is now created within your Azure subscription, an Azure SQL Database is created and filled with schemas (+ data) from your SQL files.
 
-7 Practice time
+7. Practice time
 Use Azure Data Studio (Linux/Mac) or Sql Server Management Studio (Windows) to connect to Azure SQL and run your queries.
 
 ### Other
