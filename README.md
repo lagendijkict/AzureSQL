@@ -17,6 +17,11 @@ The Azure SQL Server is now created within your Azure subscription, an Azure SQL
 7. Practice time
 Use Azure Data Studio (Linux/Mac) or Sql Server Management Studio (Windows) to connect to Azure SQL and run your queries.
 
+### Required module
+You need the Az module to run the Azure SQL commands inside the PowerShell script.
+Sample install command (run as admin):
+Install-Module -Name Az -AllowClobber -Scope AllUsers -Force
+
 ### Other
 I didn't add the SQL files to this repository, because they are part of this book:
 https://www.microsoftpressstore.com/store/t-sql-fundamentals-9781509302000 > Downloads
