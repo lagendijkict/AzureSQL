@@ -1,6 +1,4 @@
 # AzureSQL
-Lately I've been learning for the Azure DP-203 exam. I regularly need to set up a SQL Server with SQL Database, so I decided to automate some of it.
-
 I bought a Azure sandbox from Whizlabs to save some money on Azure costs. Main disadvantage is that the sandbox gets destroyed after 3 hours, so if you want to practice again after that time, you need to create a new sandbox.
 
 ## Steps to use the PowerShell script
